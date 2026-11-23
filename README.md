@@ -49,6 +49,8 @@ olist-ecommerce-sql-analysis/
 │   └── 05_advanced_queries.sql
 ├── screenshots/
 │   ├── monthly_revenue.png
-│   ├── delivery_performance.png
-│   └── top_categories.png
-└── data/                  
+│   ├── delivery_performance_average delivery time.png
+│   ├── delivery_performance_late delivery affect review score.png
+│   ├── delivery_performance_percentage of orders were delivered late.png
+│   ├── Customer cohort-style analysis.png
+│   └── top_categories.png                  
