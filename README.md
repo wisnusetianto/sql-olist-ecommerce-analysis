@@ -84,7 +84,7 @@ Focus on reducing late deliveries, especially in regions/categories with the hig
 2. Increase customer retention
 The majority of customers only buy once. Consider loyalty programs, personalized recommendations, or post-purchase incentives.
 
-3.Optimize high-freight categories
+3. Optimize high-freight categories
 Some categories have disproportionately high shipping costs relative to product price. Review pricing or shipping strategy for these categories.
 
 4. Support top-performing sellers
