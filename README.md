@@ -36,6 +36,14 @@ How is Olist performing in terms of revenue, delivery performance, customer sati
 
 ---
 
+## How to Reproduce
+1. Download the dataset from Kaggle (link above).
+2. Load the CSV files into your SQL environment (BigQuery, SQLite, PostgreSQL, etc.).
+3. Run the SQL scripts in the sql/ folder in numerical order.
+4. Review results the findings section in this README.
+
+---
+
 ## Project Structure
 
 ```text
@@ -54,3 +62,35 @@ olist-ecommerce-sql-analysis/
 │   ├── delivery_performance_percentage of orders were delivered late.png
 │   ├── Customer cohort-style analysis.png
 │   └── top_categories.png                  
+```
+
+---
+
+## Key Findings
+- Total revenue generated: [15,419,773.75]
+- Average Order Value (AOV): [159.83]
+- 6.77% of orders were delivered late
+- Late deliveries are strongly associated with lower review scores
+- Top product category by revenue: [Health Beauty]
+- 96.88% of customers made more than one purchase (high one-time buyer rate)
+- Top 10 sellers contribute approximately 13.15% of total revenue
+
+---
+
+## Recommendations
+1. Improve delivery performance
+Focus on reducing late deliveries, especially in regions/categories with the highest delay rates, because late delivery significantly hurts customer satisfaction.
+
+2. Increase customer retention
+The majority of customers only buy once. Consider loyalty programs, personalized recommendations, or post-purchase incentives.
+
+3.Optimize high-freight categories
+Some categories have disproportionately high shipping costs relative to product price. Review pricing or shipping strategy for these categories.
+
+4. Support top-performing sellers
+Identify and provide better support/tools to high-performing sellers to scale their contribution further.
+
+---
+
+## Author
+Wisnu Setianto
