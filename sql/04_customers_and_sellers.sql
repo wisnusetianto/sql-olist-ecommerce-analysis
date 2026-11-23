@@ -5,11 +5,12 @@ SELECT
 FROM `animated-zenith-514906-i9.Dataset_001.olist_customers_dataset`
 GROUP BY 1
 )
-
 SELECT 
   COUNT(*) AS total_customer,
   COUNT(CASE WHEN duplicate_count = 1 THEN 1 END) AS one_time_buyer,
-  COUNT(CASE WHEN duplicate_count > 1 THEN 1 END) AS repeat_buyer
+  ROUND(COUNT(CASE WHEN duplicate_count = 1 THEN 1 END) * 100 / COUNT(*),2) AS percentage_one_time_buyer,
+  COUNT(CASE WHEN duplicate_count > 1 THEN 1 END) AS repeat_buyer,
+  ROUND(COUNT(CASE WHEN duplicate_count > 1 THEN 1 END) * 100 / COUNT(*),2) AS percentage_repeat_buyer,
 FROM customer_order;
 
 SELECT 
